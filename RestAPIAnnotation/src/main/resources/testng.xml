@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST API suite Runner">
+
+  <test name="Rest API Test">
+    <classes>
+      <class name="tests.TC001"></class>
+      <class name="tests.TC002"></class>
+      <class name="tests.TC003"></class>
+      <class name="tests.TestsOnLocalAPI"></class>
+      <class name="tests.JSONSchemaValidator"></class>
+      <class name="tests.SoapXMLRequest.java"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
